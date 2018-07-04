@@ -1,0 +1,4 @@
+hola que tal este este
+un lindo archivo que deberia
+tener cinco palabras por linea
+que divertido programar en PHP
