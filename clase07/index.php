@@ -3,7 +3,7 @@
 $hostname = 'localhost';
 $dbname   = 'comercioit';
 $username = 'root';
-$password = '';
+$password = 'Admin2015';
 try {
 	$conn = new PDO("mysql:host=$hostname;dbname=$dbname", $username, $password);
 	$sql = 'SELECT Nombre, Precio, Stock FROM Productos';
