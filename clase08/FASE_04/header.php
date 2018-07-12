@@ -2,7 +2,7 @@
 <html>
 	<head>
 	<title>ComercioIT | Tu E-Shop en PHP</title>
-	<base href="http://<?php echo $_SERVER["SERVER_NAME"]; ?>/ComercioIT/FASE_04/">
+	<base href="http://<?php echo $_SERVER["SERVER_NAME"]; ?>/clase08/FASE_04/">
 	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 	<!--theme-style-->
 	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />	

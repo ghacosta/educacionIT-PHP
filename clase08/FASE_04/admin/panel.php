@@ -14,7 +14,7 @@
 <?php
 
 	//$productos = $conexion->prepare("SELECT * FROM Productos");
-	$productos = $conexion->prepare("SELECT P.idProducto, P.Nombre, P.Precio, P.Presentacion, P.Stock, M.Nombre AS Marca, C.Nombre AS Categoria FROM Productos AS P INNER JOIN Marcas AS M ON P.Marca = M.idMarca INNER JOIN Categorias AS C ON P.Categoria = C.idCategoria");
+	$productos = $conexion->prepare("SELECT P.idProducto, P.Nombre, P.Precio, P.Presentacion, P.Stock, M.Nombre AS Marca, C.Nombre AS Categoria FROM productos AS P INNER JOIN marcas AS M ON P.Marca = M.idMarca INNER JOIN categorias AS C ON P.Categoria = C.idCategoria");
 	$productos->execute();
 	while ( $producto = $productos->fetch() ) {
 	?>
